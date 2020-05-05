@@ -1,7 +1,9 @@
 # Lesson 01 - Project Overview
-Imagine that you work for your local chapter of the [National Audobon Society](https://www.audubon.org/). Your organization often recovers orphaned bird eggs in the wild and incubates them to maturity. 
+Imagine that you work for your local chapter of the [National Audobon Society](https://www.audubon.org/). Your organization often recovers orphaned bird eggs in the wild and incubates them to maturity.
+
 <img src="https://i.imgur.com/A4YW8qP.jpg" alt="BabyBirds" width="400
 "/>
+
 Egg incubation is tricky business. To incubate a chicken egg, for instance, it must be kept between 37.2° C and 38.9° C. You could just constantly check the temperature and adjust the heaters manually. However, it takes an average of 21 days to incubate a chicken egg. That's a lot of checking and adjusting! A much better way would be to automate the temperature control by having a computer check and adjust the temperatures. The Temperature control lab is the hardware to do just that. The lab comes equiped with two heaters and two thermometers so it can auto-adjust to keep the temperature just right. In this course we will learn about programming as we build a Java program that can maintain a perfect egg-incubation temperature.
 
 ## Introduction
