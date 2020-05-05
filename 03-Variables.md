@@ -19,7 +19,7 @@ Java has a list of *primative datatypes*. Primative datatypes are the most basic
 - ```char``` Stores single unicode characters (the characters we use to type like ```a```, ```b``` or ```#```)
 - ```boolean``` Stores either ```true``` or ```false```.
 
-As you  have noticed, ```int```, ```long```, and ```short``` all serve very similar purposes. The only difference is the size of the values they can hold. Similarly, ```float``` and ```double``` hold the same kinds of values but ```double``` can hold values with more digits thatn float.
+As you  have noticed, ```int```, ```long```, and ```short``` all serve very similar purposes. The only difference is the size of the values they can hold. Similarly, ```float``` and ```double``` hold the same kinds of values but ```double``` can hold values with more digits than float.
 
 ### Other Datatypes
 
