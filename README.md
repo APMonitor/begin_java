@@ -37,3 +37,5 @@ You will need a [TCLab kit](https://apmonitor.com/heat.htm) to complete the exer
 
 ## Install the JDK
 The [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) (Java Development Kit) is the software that allows your computer to compile and read Java code. If your computer doesn't already have it installed, install it before continuing the course.
+
+Continue to [lesson 00 - Introduction to Java](https://github.com/CrayonProof/LearnJava/blob/master/00-IntroductionToJava.md)

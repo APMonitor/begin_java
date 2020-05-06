@@ -77,3 +77,5 @@ The red LED on top of the temperature control lab should light up and stay red f
 <img src="https://i.imgur.com/OhAstHw.png" alt="javaBuildPathImage" width="350"/>
 
 Congragulations! You just built your first Temperature Control Lab program!
+
+Continue to [lesson 02 - Debugging](https://github.com/CrayonProof/LearnJava/blob/master/02-Debugging.md)

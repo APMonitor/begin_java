@@ -44,3 +44,5 @@ String temperature_units = "degrees Celcius";
 
 System.out.println(difference + temperature_units)  //hint: you can't combine different datatypes
 ```
+
+Continue to [lesson 03 - Variables](https://github.com/CrayonProof/LearnJava/blob/master/03-Variables.md)
