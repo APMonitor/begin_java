@@ -61,7 +61,7 @@ Assign a value to each variable that could be stored in that datatype. You can c
 ```
 int person_age = ;
 float personHight = ;
-double boat_weight
+double boat_weight = ;
 String cityName = ;
 char middle_initial = ;
 boolean isLightRed = ;
