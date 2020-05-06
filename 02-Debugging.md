@@ -40,9 +40,11 @@ int target_temperature = 37;
 
 int difference = target_temperature - current_temperature
 
-String temperature_units = "degrees Celcius";
+String temperature_units = " degrees Celcius";
 
-System.out.println(difference + temperature_units)  //hint: you can't combine different datatypes
+System.out.println(difference + temperature_units) 
+//hint: use 'Integer.toString(difference)'
+//to convert the integer 'difference' to a String so you can print it together with 'temperature_units'
 ```
 
 Continue to [lesson 03 - Variables](https://github.com/CrayonProof/LearnJava/blob/master/03-Variables.md)

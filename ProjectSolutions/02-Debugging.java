@@ -12,9 +12,11 @@ public class Main {
 		int current_temperature = 30;
 		int difference = target_temperature - current_temperature
 
-		String temperature_units = "degrees Celcius";
+		String temperature_units = " degrees Celcius";
 
-		System.out.println(Integer.toString(difference) + temperature_units)  //hint: you can't combine different datatypes
+		System.out.println(Integer.toString(difference) + temperature_units) 
+		//hint: use 'Integer.toString(difference)'
+		//to convert the integer 'difference' to a String so you can print it together with 'temperature_units'
 		
 	}
 }
