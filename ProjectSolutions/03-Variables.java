@@ -14,7 +14,7 @@ public class Main {
 	String message = "Happy birthday, Jonathan!";
 	float temperature = 92.56;
 	char last_letter = 'g';
-	String response = "true"; //This one is a but of a trick question. A boolean value would be written without 
+	String response = "true"; //This one is a bit of a trick question. A boolean value would be written without 
 							  //the doublequotation marks. If you tried to set a boolean variable to this you would get an error.
 							  
 	public static void main(String[] args) {

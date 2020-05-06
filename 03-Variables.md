@@ -75,7 +75,7 @@ false;
 "Happy birthday, Jonathan!";
 92.56;
 'g';
-"true"; //This one is a but of a trick question
+"true"; //This one is a bit of a trick question
 ```
 
 Here's a stock photo since this lesson didn't have any.
