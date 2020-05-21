@@ -1,11 +1,13 @@
 # Lesson 04 - Printing
-In the early days of computers, users didn't interact with the computer through a screen, as we do now. Instead, the computer would output information with a teleprinter, like the one's used for wiring long-distance messages.
+In the early days of computers, users didn't interact with the computer through a screen, as we do now. Instead, the computer would output information with a teleprinter, like the ones used for wiring long-distance messages.
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WACsOperateTeletype.jpg" alt="Teletype" width="400
 "/> 
+
 This method of receiving computer output set the precedence for the most fundamental method of computer output today –*printing*. Nowadays, we don't need to print to a physical printer. Instead, output is printed to a *console* on the computer. The console acts like a virtual printer and can print out whatever you tell it to. In addition to writting output, the user can type commands for the computer directly into the console. Because of this, the console is a fundamental and powerful way for programmers to interact with the computer.
 
 ## Printing in Java
-Ever programming language has it's own built in way of printing information to the console. In Java, this is done with the statement ```System.out.println();``` Inside the parentheses, you write the information you want the program to print, for instance,
+Every programming language has it's own built in way of printing information to the console. In Java, this is done with the statement ```System.out.println();``` Inside the parentheses, you write the information you want the program to print, for instance,
 ```
 System.out.println("Hello World!");
 ```
