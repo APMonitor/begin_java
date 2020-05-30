@@ -1,0 +1,8 @@
+# Lesson 05 - User Input
+One of the earliest forms of computer was the Jacquard Machine. Invented in 1804, the Jacquard Machine was designed to be retrofitted to a loom, enabling the automation of complex textile weaving. In oder to specify the type of weave for the textile, the machine accepted punch-card inputs, which were read mechanically and interperated into mechanical movements of the machine. These punch cards were made of a thick cardstock with rows of dots. Some of the dots were punched out and some were left in. The computer interperated the sequence of dots and whether a dot was punched out or left in and used this to derive the weave pattern. As computers progressed into the 20th century, this style of user input rose to mainstream use. Fortunately for us, we are no longer limmited to punch-card computer input. In this lesson we will learn how to use simple keyboard input to accept input from a user in your programs.
+## The Scanner
+Java provides an easy way for us to take input from the user. It's called the *Scanner* class. Scanner, like TCLab, is a class. It takes care of the nitty gritty stuff of user input like reading the bits that are sent from the keyboard. To use the scanner class, we must first create a scanner object. Just as with TCLab objects, we can name this object anything we want.
+```
+Scanner myScanner = new Scanner(System.in);
+```
+Once we have created out scanner object, we can call methods from it to get user input.
