@@ -15,8 +15,8 @@ public class Main {
 		//print out the values of the two variables.
 		//Notice how after the colon, I include a space.
 		//If I didn't do this, the program would output 'Temperature 1:24.02'
-		System.out.println("Temperature 1: " + temp1)
-		System.out.println("Temperature 2: " + temp2)
+		System.out.println("Temperature 1: " + temp1);
+		System.out.println("Temperature 2: " + temp2);
 
 	}
 
