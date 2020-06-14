@@ -22,7 +22,7 @@ public class Main {
 		myLab.Q2(selection);
 
 		//print the temperatures out in a loop
-		for (int j = 0; j < 12; j ++) {
+		for (int j = 0; j <= 12; j ++) {
 			System.out.println("Temperatures after " + Integer.toString(j*5) + " seconds");
 
 			System.out.println("Temperature 1: " + myLab.T1());
@@ -31,7 +31,7 @@ public class Main {
 			try {Thread.sleep(5000);} catch (InterruptedException e) {}
 		}
 
-		myLab.close()
+		myLab.close();
 
 
 	}
