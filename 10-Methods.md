@@ -3,7 +3,7 @@
 The entire point of programming is to automate tasks that we humans find repetitive or mundane. Would it not then be a bit counterproductive if, within our code, we find outselves writing the same bits of code over and over? To avoid this, most programming languages have a way to make certain chunks of code reusable. Some programming languages call these reusable chunks of code *functions*. In Java, they are called *methods*.  Let's look at an example of how we can use methods to make our code cleaner and easier when working with the Temperature Control Lab.
 
 ## Writing a Method
-In our last lesson, we wrote a short program that printed out the temperatures of lab one and lab two. We may want to do this at various points in out final program. Rather than retype this code every time we want to use it, we can put it in a method. Methods are wrapped in curly braces and identified by a name. Let's name our function 'readTemps'.
+In a previous lesson, we wrote a short program that printed out the temperatures of lab one and lab two. We may want to do this at various points in out final program. Rather than retype this code every time we want to use it, we can put it in a method. Methods are wrapped in curly braces and identified by a name. Let's name our function 'readTemps'.
 ```
 readTemps {
 }
@@ -33,9 +33,9 @@ void readTemps() {
 Now, any time we want to print out the two temperatures, we can just *call* the method  with the statement ```readTemps();``` and the computer will print out the two temperatures just as we did in the previous lesson!
 
 ## Method Returns
-Any time you use ```T1()``` or ```T2()``` from the TCLab library, you are actually calling a method that was written in the TCLab class! While neither of these functions print anything to the console, they both return a value. You can access the return of a method just how you would access the value of a variable. For that reason, we can set the variable 'temp 1' to the return of ```T2()``` in the snippet of code below.
+Any time you use ```T1()``` or ```T2()``` from the TCLab library, you are actually calling a method that was written in the TCLab class! While neither of these functions print anything to the console, they both return a value. You can access the return of a method just how you would access the value of a variable. For that reason, we can set the variable 'temp1' to the return of ```T1()``` in the snippet of code below.
 ```
-double temp2 = myLab.T2();
+double temp1 = myLab.T1();
 ```
 When you are writing functions of your own, the value it returns is specified by the *return* keyword. For example, the return of a function that is meant to return the string 'My function ran!' would look like this:
 ```
@@ -49,6 +49,7 @@ And the return of a function tht is meant to return the value of a variable ```p
 ```
 return product;
 ```
+
 ## Method Parameters
 As mentioned above, method parameters are variables that are unique every time a method is run. They are specified in the parentheses after the method name. Let's look at a simple method that is meant to multiply two integers```a``` and ```b``` and return the result.
 ```
@@ -65,6 +66,31 @@ multiply(5, 12);
 ```
 
 TCLab has some functions that can take parameters, like the ```LED()``` function. You can specify an LED brightness by passing it a value between 0 and 100 in the parentheses: ```LED(58);```
+
+Here is an example of a program that uses a method to convert a temperature in Celcius to a temperature in Fahrenheit. Then, right outside the main method, I call the ```celciusToFahrenheit()``` method inside a print statement.
+```
+package defaultpackage;
+
+public class Main {
+
+	static double celciusToFahrenheit(double temp_celcius) {
+		return ((temp_celcius * (9.0/5.0)) + 32.0);
+	}
+	
+	public static void main(String[] args) {
+
+		
+		System.out.println(celciusToFahrenheit(34.5));
+
+
+	}
+
+}
+```
+The output is
+```
+94.1
+```
 
 ## Activity #1
 In this activity, you will write a boolean method ```isEven``` that takes one integer as an argument and returns true if that integer is even and false if not. You will need to use the ```%```  opperator to determine whether or not the integer is even. You should know that boolean variables can be set to the result of a boolean opperation. For instance:
