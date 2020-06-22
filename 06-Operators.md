@@ -1,17 +1,21 @@
 # Operators
-At it's core, programming is really just extra powerful mathematics. Because everything a computer does is really some extention of math, operators in a programming language are core to it's functionality. You are familiar with the idea of operators from mathematics. An operator represents some transformative or informative action that is happening to a set of data. For instance, in the equation ```4 + 7 = 11``` we see the use of two operators, ```+``` and ```=```. the ```+ ```operator *transforms* the data on either side of it, adding them together. The ```=``` operator *informs* us that the data on the left side is equal to the data on the right side. We have already used operators in a few of the lesson activities, today, we are going to take a look at three common kinds of opperators in Java and how they are used.
+
+You can think of programming like extra powerful math. Instead of working with just numbers, you can work with many different kinds of data. Just like math, programming uses special symbols called *operators* to make changes to and to compare data. We have already used operators in a few of the lesson activities, like the ```+``` symbol to add two numbers. Today, we are going to take a look at three common kinds of opperators in Java and how they are used.
+
 
 ## Arithmetic Operators
-You will be familiar with the majority of arithmetic operators as they are mathematical operators. They can be used to perform operations on any numerical data –integers, doubles, floats etc. The arithmetic operators in java are:
+Arithmetic operators are for math. They can be used to perform operations on numbers –integers, doubles, floats etc. The arithmetic operators in java are:
 |   |                |
 |---|----------------|
 | + | Addition       |
 | - | Subtraction    |
 | * | Multiplication |
 | / | Devision       | 
-| % | Modulus        | 
+| % | Modulus        |
 
-The last listed operator, modulus, will return the remainder after deviding the number on the left by the number on the right. For instance, ```23 % 7``` will equate to ```2```. These operators can be used in any instance when you want to perform mathematical operations on values in your code. You can set a variable equal to the product of two other variables like this:
+The modulus will return the remainder after deviding the number on the left by the number on the right. For instance, ```23 % 7``` will equate to ```2```.
+
+Here are some examples of using arithmetic operators to do calculations with integer variables
 ```
 int a = 2;
 int b = 3;
@@ -21,7 +25,7 @@ System.out.println(c);
 ```
 5
 ```
-Or calculate the remainder of the devision of two variables like this:
+You can calculate the remainder of the devision of two variables like this:
 ```
 int a = 239;
 int b = 17;
@@ -41,7 +45,7 @@ System.out.println(c);
 ```
 
 ## Relational Operators
-Relational operators are used to determine the relationship between values of different pieces of data. You could use a relational operator to test weather ther temperature of the TCLab is above a miminum tempurature. The relational operators in java are:
+Relational operators show the relationship between different data, like whether one variable is greater than another variable. The relational operators in java are:
 |   |                |
 |---|----------------|
 | == | Equals|
@@ -51,7 +55,7 @@ Relational operators are used to determine the relationship between values of di
 | >=| Greater Than or Equal to |
 | <=| Less Than or Equal to|
 
-All of these opperations result in either true or false, boolean data. Let's look at the use of a few of these operators in real Java code, along with the printed output.
+All of these opperations result in either true or false, boolean values. Let's look at the use of a few of these operators in real Java code, along with the printed output.
 
 ```
 boolean isEqual = (7 == 18);
@@ -70,7 +74,7 @@ true
 ```
 The greater/less than opperators are used like this:
 ```
-boolean isGreater = (7+4 > 11);
+boolean isGreater = (11 > 11);
 System.out.println(isGreater);
 ```
 ```
@@ -78,8 +82,8 @@ false
 ```
 The ```>=``` and ```<=``` operators function similarly but will also return true if the two sides equal one another:
 ```
-boolean isGreater = (7+4 >= 11);
-System.out.println(isGreater);
+boolean isGreaterOrEqual = (11 >= 11);
+System.out.println(isGreaterOrEqual );
 ```
 ```
 true
@@ -108,6 +112,15 @@ true
  ```&&```  returns ```false``` if one or more boolean values on both sides of it are false:
 ```
 boolean myBool = false && true;
+System.out.println(myBool);
+```
+```
+false
+```
+You can use logical operators with comparison operators. Here is an example that tests whether 7 equals 4 AND 8 equals 8.
+
+```
+boolean myBool = 7==4 && 8==8;
 System.out.println(myBool);
 ```
 ```
@@ -145,24 +158,24 @@ false
 ```
 
 ## Combining Operators
-You can combine any of the operators we have talked about in this lesson to create complex logical statements. For instance, let's say that you want to write a program that will test weather your combined expenses from different categories is within your monthly budget. You could use both relational and arithmetic operators like this:
+You can combine any of the operators we have talked about in this lesson to create complex logical statements. For instance, let's say that you want to write a program that will test weather your total expenses are within your monthly budget. The program below adds up three variables representing different parts of your budget, then it tests whether the total is under your maximum budget.
 ```
 float gasolineCost = 37.50;
 float entertainmentCost = 12.00;
 float foodCost = 150.75;
-float budgetMax = 210.00;
+float budgetMax = 220.00;
 
 bool isOverBudget = (gasolineCost + entertainmentCost + foodCost) <= budgetMax;
 System.out.println(isOverBudget);
 ```
 When you run this program with these values, Java will print out:
 ```
-false
+true
 ```
-Congradulations! You're living within your budget!
+Congratulations! You're living within your budget!
 
 ## Try it Yourself
-For this lesson's activity, your task is to extend the program you wrote in lesson 04 to test weather the temperatures from thermometer 1 and thermometer 2 on the Temperature Control Lab are equal to one another. Your program should print out two lines as output, formated like the ones below:
+For this lesson's activity, your task is to extend the program you wrote in lesson 04 to test weather the temperatures from thermometer 1 and thermometer 2 on the Temperature Control Lab are equal to one another. Your program should measure both thermometers, then test if they are equal, and finally calculate the difference between the two. It's ok if the difference comes out negative. Make your program print out two lines, formated like the ones below:
 ```
 Temperature 1: 24.02
 Temperature 2: 23.98

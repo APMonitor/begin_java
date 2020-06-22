@@ -1,9 +1,7 @@
 # Lesson 01 - Project Overview
-Imagine that you work for your local chapter of the [National Audobon Society](https://www.audubon.org/). Your organization often recovers orphaned bird eggs in the wild and incubates them to maturity.
-
+Imagine that you work for your local chapter of the [National Audobon Society](https://www.audubon.org/). Your organization often recovers orphaned bird eggs in the wild and incubates them to maturity. 
 <img src="https://i.imgur.com/A4YW8qP.jpg" alt="BabyBirds" width="400
 "/>
-
 Egg incubation is tricky business. To incubate a chicken egg, for instance, it must be kept between 37.2° C and 38.9° C. You could just constantly check the temperature and adjust the heaters manually. However, it takes an average of 21 days to incubate a chicken egg. That's a lot of checking and adjusting! A much better way would be to automate the temperature control by having a computer check and adjust the temperatures. The Temperature control lab is the hardware to do just that. The lab comes equiped with two heaters and two thermometers so it can auto-adjust to keep the temperature just right. In this course we will learn about programming as we build a Java program that can maintain a perfect egg-incubation temperature.
 
 ## Introduction
@@ -48,6 +46,16 @@ Brows to the location in which you downloaded the above JAR files and add both f
 
 <img src="https://i.imgur.com/adtTih6.png" alt="javaBuildPathImage" width="350"/>
 
+### Try-Catch
+In many programming languages, including Java, you can use a *try-catch* block to prevent your program from crashing if something doesn't work as intended. A try-catch block in java looks like this:
+```
+try {
+	//Your code here
+} catch (Exception e) {
+	// Your backup code here
+}
+```
+This tells the computer to try running the code inside the try segment. However, if the computer can't run the code and throws an error, instead of crashing your program, it will run the code inside of the catch segment. In the program below. We use a try catch around the ```Thread.sleep();``` command so that, if the command doesn't work, the program won't just crash
 
 Now, you can write code in your project that will control the Temperature Control Lab! You can use the following code to test the lab by turning on it's LED for five seconds.
 
@@ -77,5 +85,3 @@ The red LED on top of the temperature control lab should light up and stay red f
 <img src="https://i.imgur.com/OhAstHw.png" alt="javaBuildPathImage" width="350"/>
 
 Congragulations! You just built your first Temperature Control Lab program!
-
-Continue to [lesson 02 - Debugging](https://github.com/CrayonProof/LearnJava/blob/master/02-Debugging.md)

@@ -1,6 +1,8 @@
 
 # Lesson 10 - Methods
-The entire point of programming is to automate tasks that we humans find repetitive or mundane. Would it not then be a bit counterproductive if, within our code, we find outselves writing the same bits of code over and over? To avoid this, most programming languages have a way to make certain chunks of code reusable. Some programming languages call these reusable chunks of code *functions*. In Java, they are called *methods*.  Let's look at an example of how we can use methods to make our code cleaner and easier when working with the Temperature Control Lab.
+A method is a reusable bit of code that you can activate or *call* at any point in your code.
+
+<img src="https://i.imgur.com/GuLxJkv.png" alt="Method" width="600" />
 
 ## Writing a Method
 In a previous lesson, we wrote a short program that printed out the temperatures of lab one and lab two. We may want to do this at various points in out final program. Rather than retype this code every time we want to use it, we can put it in a method. Methods are wrapped in curly braces and identified by a name. Let's name our function 'readTemps'.
@@ -8,12 +10,12 @@ In a previous lesson, we wrote a short program that printed out the temperatures
 readTemps {
 }
 ```
-In addition to a name and curly brackets to encase it, a function needs a *return type*. A return type specifies the datatype of the value returned by the function if any is returned. In this case, no value will be returned so the return type is ```void```.
+Methods also need a *return type*. A return type says the datatype of the value returned by the function if any is returned. In this case, the method won't return a value so we will type ```void```.
 ```
 void readTemps {
 }
 ```
-The last thing a method needs are *parameters*.  Also refered to as an *argument*, a parameter is a variable, unique to a method, that is set every time that method is run. The parameters go inside parentheses right after the method name. Since this method needs no parameters, we will leave the parentheses blank.
+The last thing a method needs are *parameters*. A parameter is a special variable that is set every time the method is called. The parameters go inside parentheses right after the method name. Since this method needs no parameters, we will leave the parentheses blank.
 
 ```
 void readTemps() {
@@ -33,67 +35,44 @@ void readTemps() {
 Now, any time we want to print out the two temperatures, we can just *call* the method  with the statement ```readTemps();``` and the computer will print out the two temperatures just as we did in the previous lesson!
 
 ## Method Returns
-Any time you use ```T1()``` or ```T2()``` from the TCLab library, you are actually calling a method that was written in the TCLab class! While neither of these functions print anything to the console, they both return a value. You can access the return of a method just how you would access the value of a variable. For that reason, we can set the variable 'temp1' to the return of ```T1()``` in the snippet of code below.
-```
-double temp1 = myLab.T1();
-```
-When you are writing functions of your own, the value it returns is specified by the *return* keyword. For example, the return of a function that is meant to return the string 'My function ran!' would look like this:
+The commands you use to control the Temperature control lab like  ```T1()``` or ```T2()``` are all methods! Both of these examples return a value representing the temperature of that thermometer. 
+
+You can program a method to return a value too. Just write ```return``` followed by the value you want to return. Here are some examples of return statements returning a string, an integer, and the value of a variable.
 ```
 return "My function ran!";
 ```
-The return of a function that is meant to return the double value ```52``` would look like this:
 ```
 return 52;
 ```
-And the return of a function tht is meant to return the value of a variable ```product``` would look like this:
 ```
 return product;
 ```
 
 ## Method Parameters
-As mentioned above, method parameters are variables that are unique every time a method is run. They are specified in the parentheses after the method name. Let's look at a simple method that is meant to multiply two integers```a``` and ```b``` and return the result.
+Method parameters are variables that are set every time a method is run. They are written in the parentheses after the method name. Let's look at an example method that multiplies two numbers, ```a``` and ```b```.
 ```
 int multiply(int a, int b) {
 	return (a*b);
 }
 ```
-As you can see, we declare the parameters just like variables inside the parentheses. Each parameter is seperated from the previous by a comma. Within the method, we can use the names of these parameters just like variables. When the method is run, these variables will contain whatever values are passed to it as argumunts.
+As you can see, we declare the parameters just like variables inside the parentheses. Each parameter is seperated from the previous by a comma. Within the method, we can use the names of these parameters just like variables. When the method is run, these variables will contain whatever values are set in the method call..
 
-When calling a method that takes arguments, values are passed inside the parentheses in the correct order. If we want to call the above method with the values 5 for ```a``` and 12 for ```b```, we would do so like this:
+To call a method that takes parameters, type the values in the parentheses. Here's how you would use our multiply method to multiply 5 and 12.
 ```
 multiply(5, 12);
 
 ```
-
-TCLab has some functions that can take parameters, like the ```LED()``` function. You can specify an LED brightness by passing it a value between 0 and 100 in the parentheses: ```LED(58);```
-
-Here is an example of a program that uses a method to convert a temperature in Celcius to a temperature in Fahrenheit. Then, right outside the main method, I call the ```celciusToFahrenheit()``` method inside a print statement.
+You can put the method call inside a print statement to print whatever value is returned.
 ```
-package defaultpackage;
-
-public class Main {
-
-	static double celciusToFahrenheit(double temp_celcius) {
-		return ((temp_celcius * (9.0/5.0)) + 32.0);
-	}
-	
-	public static void main(String[] args) {
-
-		
-		System.out.println(celciusToFahrenheit(34.5));
-
-
-	}
-
-}
+System.out.println(multiply(5, 12));
 ```
-The output is
+Will print
 ```
-94.1
+60
 ```
 
 ## Activity #1
-In this activity, you will write a boolean method ```isEven``` that takes one integer as an argument and returns true if that integer is even and false if not. You will need to use the ```%```  opperator to determine whether or not the integer is even. You should know that boolean variables can be set to the result of a boolean opperation. For instance:
+In this activity, you will write a boolean method ```isEven``` that takes one integer as a parameter and returns true if that integer is even and false if not. You will need to use the ```%```  opperator to determine whether or not the integer is even. If the remainder of a number devided by two, then it is even. You should know that boolean variables can be set to the result of a boolean opperation. For instance:
 ```
 boolean isTen = ((5+8) == 10);
 ```

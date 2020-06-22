@@ -1,3 +1,4 @@
+
 # Lesson 00 - An Introduction to Java
 Before we get started using the Temperature Control Lab, it's important that we get a good feel for the tools we will use to program. This course will use the Java programming language.  You can write a Java code in any text editor, however, out of convinience, most programmers prefer using an IDE (Integrated Development Environment). An IDE gives you a place to both write your code **and** run your code in the same program. In addition, IDE's can include other features that are useful to programmers like debuggers to help figure out what is wrong when their program doesn't run like they expected. There are many IDE options for you to consider. Three popular IDEs are [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers), [IntelliJ]([https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)), and [Visual Studio]([https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)). Each of them has free download options that anyone can use. For this course, we will be using Eclipse, although most full-feature IDEs will let you do everything we will do here.
 
@@ -37,25 +38,6 @@ public class Main {
 
 As we go through each lesson, you may come across vocabulary or phrases that you don't understand. Don't be discouraged, much of this vocabulary will be defined later on as you continue through the course but we encourage you to look it up on your own and do your best to understand it when you first encounter it.
 
-### Try-Catch
-In many programming languages, including Java, you can use a *try-catch* block to prevent your program from crashing if something doesn't work as intended. A try-catch block in java looks like this:
-```
-try {
-	//Your code here
-} catch (Exception e) {
-	// Your backup code here
-}
-```
-This tells the computer to try running the code inside the try segment. However, if the computer can't run the code and throws an error, instead of crashing your program, it will run the code inside of the catch segment. For instance, you could use it to report the error to the user like this:
-```
-try {
-	//sign into user account
-} catch (Exception e) {
-	//pop up message that says "Your password was incorrect, try again"
-}
-```
-Remember that anything following a  ```//``` isn't real code, it's a comment. Here, just serves as a placeholder.
-
 ### The Semicolon
 In Java, the semicolon is used to tell the computer when it has reached the end of an instruction or *statement*. Evey instruction you give the computer MUST end in a semicolon or the computer won't know how to read it. For example:
 ```
@@ -77,5 +59,3 @@ public class Main {
 	}
 }
 ```
-
-Continue to [lesson 01 - Overview](https://github.com/CrayonProof/LearnJava/blob/master/01-Overview.md)
