@@ -4,7 +4,7 @@ In the early days of computers, users didn't interact with the computer through 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WACsOperateTeletype.jpg" alt="Teletype" width="400
 "/> 
 
-This method of receiving computer output set the precedence for the most fundamental method of computer output today –*printing*. Nowadays, we don't need to print to a physical printer. Instead, output is printed to a *console* on the computer. The console acts like a virtual printer and can print out whatever you tell it to. In addition to writting output, the user can type commands for the computer directly into the console. Because of this, the console is a fundamental and powerful way for programmers to interact with the computer.
+Nowadays, we don't need to print to a physical printer. Instead, output is printed to a *console* on the computer. The console acts like a virtual printer and can print out whatever you tell it to. In addition to writting output, the user can type commands for the computer directly into the console. Because of this, the console is a fundamental and powerful way for programmers to interact with the computer.
 
 <img src="https://i.imgur.com/RyFcMCv.png" alt="Console" width="400
 "/> 

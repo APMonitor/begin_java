@@ -1,8 +1,10 @@
 # Lesson 02 – Debugging
 
 Because computers are so exact, they are wonderful tools when you need precise measurements and control. However, this also means that they need very precise instructions. It's easy to make a little mistake in your code and throw off your whole program. 
+
 <img src="https://i.imgur.com/mo96iKf.jpg" alt="Frusterated" width="400
 "/>
+
 One of the biggest, most time consuming parts of programming is debugging. Debugging means finding mistakes that are causing your program to run differently than you expected –or maybe not run at all. A few simple habbits can cut down the time you spend searching for mistakes and let you get on to finishing your project.
 
 ## Effective Programming Habbits

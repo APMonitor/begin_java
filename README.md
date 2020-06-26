@@ -1,3 +1,4 @@
+
 # Begin Java with the TCLab
 Welcome to this introductory course on Java! The course is intended to help you start programming in Java from little or no prior experience. One of the best ways to start or review a programming language is to work on a simple project. These exercises are designed to teach basic Java programming skills to help you design a temperature controller.
 
@@ -16,18 +17,20 @@ For this course, imagine that you are tasked with maintaining three eggs at the 
 
 ## Programming Skills
 
-There are 10 lessons to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The one I use in this course is [Eclipse.](https://www.eclipse.org/downloads/)
+There are 11 lessons and a final project to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The one I use in this course is [Eclipse.](https://www.eclipse.org/downloads/)
 
-1.Overview
-2.  Debugging
-3.  Variables
-4.  Printing
-5.  Classes and Objects
-6.  Methods
-7.  Loops
-8.  User Input
+1.  Overview
+3.  Debugging
+4.  Variables
+5.  Printing
+6.  User Input
+7.  Operators
+8.  Loops
 9.  If Statements
 10.  Arrays and Arraylists
+11.  Methods
+12.  Classes and Objects
+13.  Final Project
 
 ## Supplies
 
@@ -37,5 +40,3 @@ You will need a [TCLab kit](https://apmonitor.com/heat.htm) to complete the exer
 
 ## Install the JDK
 The [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) (Java Development Kit) is the software that allows your computer to compile and read Java code. If your computer doesn't already have it installed, install it before continuing the course.
-
-Continue to [lesson 00 - Introduction to Java](https://github.com/CrayonProof/LearnJava/blob/master/00-IntroductionToJava.md)
