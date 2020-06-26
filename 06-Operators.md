@@ -1,4 +1,4 @@
-# Operators
+# Lesson 06 - Operators
 
 You can think of programming like extra powerful math. Instead of working with just numbers, you can work with many different kinds of data. Just like math, programming uses special symbols called *operators* to make changes to and to compare data. We have already used operators in a few of the lesson activities, like the ```+``` symbol to add two numbers. Today, we are going to take a look at three common kinds of opperators in Java and how they are used.
 
