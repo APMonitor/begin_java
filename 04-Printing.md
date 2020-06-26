@@ -44,17 +44,6 @@ The result of the above code is the following:
 ```
 Hi, Gordon. Thanks for chatting today!
 ```
-## Type Casting
-Keep in mind that you can only concatenate strings. If you want to concatenate other types of variables, you must first convert them to strings. The classes of each datatype have built in ways of doing this conversion. To convert from an integer to a string in Java, you can use the method ```Integer.toString();``` Here's an example using this method:
-```
-int num_eggs = 4;
-System.out.println("The incubator contains " + Integer.toString(num_eggs) + " eggs.");
-```
-This code will output
-```
-The incubator contains 4 eggs.
-```
-This conversion from one datatype to another is called *type casting*. Whenever you combine or add or multiply values of different datatypes, it is important to first cast them to the same datatype or else Java will give you an error.
 
 ## Let's Try It!
 Let's apply what we've learned so far to some code that we could use in our incubator project. Your task is to write a short program that will print the temperatures of both thermometers 1 and 2 to the console. Although the values for your thermometers will differ from these, your output should be formatted like this:
