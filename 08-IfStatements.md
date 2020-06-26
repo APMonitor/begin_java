@@ -31,7 +31,7 @@ Here is an example that prints out your letter grade depending on your percentag
 if (grade > 96) {
 	System.out.println("You have an A+");
 }
-else if (grade >= 90 {
+else if (grade >= 90) {
 	System.out.println("You have an A");
 }
 else {
