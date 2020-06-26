@@ -75,3 +75,16 @@ false;
 'g';
 "true"; //This one is a bit of a trick question
 ```
+
+## Extra Info - Type Casting
+You can convert from one datatype to another in Java. This is called Type Casting. To convert from one primative datatype to another in Java, put the datatype you want to convert to in parenthesis before the value like this.
+
+```
+int myInt = (int) 3.75;
+```
+
+You can also turn most other datatypes into strings with the toString method. Here's an example of converting an integer to a string:
+
+```
+String myString = Integer.toString(56);
+```
