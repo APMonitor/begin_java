@@ -160,13 +160,13 @@ false
 ## Combining Operators
 You can combine any of the operators we have talked about in this lesson to create complex logical statements. For instance, let's say that you want to write a program that will test weather your total expenses are within your monthly budget. The program below adds up three variables representing different parts of your budget, then it tests whether the total is under your maximum budget.
 ```
-float gasolineCost = 37.50;
-float entertainmentCost = 12.00;
-float foodCost = 150.75;
-float budgetMax = 220.00;
+double gasolineCost = 37.50;
+double entertainmentCost = 12.00;
+double foodCost = 150.75;
+double budgetMax = 220.00;
 
-bool isOverBudget = (gasolineCost + entertainmentCost + foodCost) <= budgetMax;
-System.out.println(isOverBudget);
+boolean isUnderBudget = (gasolineCost + entertainmentCost + foodCost) <= budgetMax;
+System.out.println(isUnderBudget);
 ```
 When you run this program with these values, Java will print out:
 ```
