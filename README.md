@@ -2,7 +2,7 @@
 # Begin Java with the TCLab
 Welcome to this introductory course on Java! The course is intended to help you start programming in Java from little or no prior experience. One of the best ways to start or review a programming language is to work on a simple project. These exercises are designed to teach basic Java programming skills to help you design a temperature controller.
 
-<img src="http://apmonitor.com/pdc/uploads/Main/tclab_front.jpg" alt="TCLab" width="337
+<img src="https://apmonitor.com/pdc/uploads/Main/tclab_front.jpg" alt="TCLab" width="337
 "/>
 
 Temperature control is found in many applications such as home or office HVAC, manufacturing processes, transportation, and life sciences. Even our bodies regulate temperature to a specific set point. This project is to regulate the temperature of the TCLab. Each TCLab has thermochromic (changes color with temperature) paint that turns from black to purple when the temperature reaches the target temperature of 37°C (99°F).
