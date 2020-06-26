@@ -91,7 +91,7 @@ When you use the ```nextLine()``` method to retreive input, the input is retreiv
 </div>
 
 ## Do It Yourself!
-Let's practice using the scanner to take in user input. Write a simple calculator that accepts two numbers as input from the user. Add the numbers together and then print the answer. Since you're asking the user for number input, use ```nextDouble();``` . 
+Let's practice using the scanner to take in user input. Write a simple calculator that accepts two numbers as input from the user. Add the numbers together and then print the answer. Since you're asking the user for number input, use ```nextDouble();``` .  To add two numbers in java, just put a ```+``` between them.
 
 Your final program should look similar to the output below when it is run:
 ```
