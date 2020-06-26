@@ -17,8 +17,6 @@ Later on, if the user wants to see how much money they made, they just have to a
 ## Writing Classes in Java
 Let's see how this same lemonade stand example could be written in Eclipse. First, create a project in Eclipse as you normally would with a main class. To write a new class in Eclipse or most other IDE's, right click on your package in the Package Explorer window and select new>Class. Type in 'Drink' for the class name. Usually, class names begin with capital letters.
 
-<img src="new class" alt="New Class" width="600" />
-
 Since this class is not the main class of your project, do not check the 'public static void main(String[] args)' box. You will see that Eclipse creates a new file. It should look like this. Your package name might be different.
 
 ```
