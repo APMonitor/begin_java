@@ -25,7 +25,7 @@ The better you follow these steps the less time you will have to spend fixing pr
 
 ## Activity
 
-Fix the errors in the following code cells. Use the error messages to help you locate the problems.
+Fix the errors in the following code cells. Use the error messages to help you locate the problems. Most of these examples are of things we haven't learned yet but hopefully it will give you a feel for debugging. You can watch the video for help with this excercise.
 
 ```
 System.out.println("Program to Hatch an Egg);  //hint: look for a missing " character
