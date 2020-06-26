@@ -6,7 +6,7 @@ One of the most basid kinds of loops in Java is called a *for loop* because it w
 
 ```
 for (int i = 0; i < 10; i++) {
-	System.out.print(i);
+	System.out.println(i);
 }
 ```
 
