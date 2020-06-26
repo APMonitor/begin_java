@@ -26,7 +26,7 @@ You might notice that some of the datatypes in this list hold the same kinds of 
 
 ### Other Datatypes
 
-During this course, we will also use the ```String``` datatype. String is not a primative datatype but it is very useful for storing regular text. In Java, strings are always written inside of quotation marks like this: ```"Hellow World"```
+During this course, we will also use the ```String``` datatype. String is not a primative datatype but it is very useful for storing regular text. In Java, strings are always written inside of quotation marks like this: ```"Hello World"```
 
 ## Naming Your Variables
 
