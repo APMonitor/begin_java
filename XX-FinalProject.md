@@ -8,7 +8,7 @@ It's wise to begin by planning out the general functionality of your program. Yo
 
 <img src="https://camo.githubusercontent.com/6068fc2cc07cddd90ba1501d57b4c9b683f1f119/68747470733a2f2f61706d6f6e69746f722e636f6d2f6368653236332f75706c6f6164732f426567696e5f507974686f6e2f68617463682e706e67" alt="Class and Objects"  />
 
-Your program should maintain the temperature of heater 1 (T1) at 37°C by adjusting the heater (Q1) over the course of 10 minutes. The LED should turn on whenever the temperature is being adjusted. Save a list of temperatures that can be printed out at the end of 10 minutes.
+Your program should maintain the temperature of heater 1 (T1) at 37°C by adjusting the heater (Q1) over the course of 10 minutes. The LED should turn on whenever the temperature is being adjusted. Save a list of temperatures and of heater 1 values that can be printed out at the end of 10 minutes.
 
 Remember to test your program after every little addition. You don't have to test it for a full 10 minutes.
 
