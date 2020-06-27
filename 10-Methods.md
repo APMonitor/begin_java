@@ -71,7 +71,7 @@ Will print
 60
 ```
 
-## Activity #1
+## Activity
 In this activity, you will write a boolean method ```isEven``` that takes one integer as a parameter and returns true if that integer is even and false if not. You will need to use the ```%```  opperator to determine whether or not the integer is even. If the remainder of a number devided by two, then it is even. You should know that boolean variables can be set to the result of a boolean opperation. For instance:
 ```
 boolean isTen = ((5+8) == 10);
