@@ -35,8 +35,8 @@ public class Drink {
 
 	public String flavor;
 	public String size;
-	boolean ice;
-	double price;
+	public boolean ice;
+	public double price;
 }
 
 ```
@@ -50,8 +50,8 @@ public class Drink {
 	
 	public String flavor;
 	public String size;
-	boolean ice;
-	double price;
+	public boolean ice;
+	public double price;
 	
 	public Drink() {
 		
@@ -66,8 +66,8 @@ public class Drink {
 	
 	public String flavor;
 	public String size;
-	boolean ice;
-	double price;
+	public boolean ice;
+	public double price;
 	
 	public Drink(String flavor, String size, boolean ice, double price) {
 		
@@ -84,8 +84,8 @@ public class Drink {
 	
 	public String flavor;
 	public String size;
-	boolean ice;
-	double price;
+	public boolean ice;
+	public double price;
 	
 	public Drink(String flavor, String size, boolean ice, double price) {
 		
@@ -106,8 +106,8 @@ public class Drink {
 	
 	public String flavor;
 	public String size;
-	boolean ice;
-	double  price;
+	public boolean ice;
+	public double price;
 	
 	public Drink(String flavor, String size, boolean ice, double price) {
 		
