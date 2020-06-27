@@ -21,7 +21,7 @@ int myNumber = myNumbers[0];
 
 ### Working With Arrays
 
-This excercise is not an official activity but will help you understand how arrays work. Copy the code below into a new project in your IDE. It will print the first item in the list, then it changes it to ```103``` and prints it again. See if you can make it change the a different item in the list.
+This excercise is not an official activity but will help you understand how arrays work. Copy the code below into a new project in your IDE. It will print the first item in the list, then it changes it to ```103``` and prints it again. See if you can make it change a different item in the list.
 
 ```
 package defaultpackage;
