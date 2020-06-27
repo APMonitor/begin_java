@@ -40,7 +40,7 @@ public class Tester {
 
 }
 ```
-Now, see if you can 
+
 ## Arraylist
 
 Arrays are very useful but you can't add more items to an array once you make it. Java provdes an alternative, *ArrayList*. ArrayList is like an array but it has special commands that allow you to do more like add and remove items. Java ArrayList is a Java class so in order to use it you need to import it.
