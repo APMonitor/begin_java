@@ -32,7 +32,7 @@ In programming, a *library* is a set of code developed by someone to be used by 
 
 For this project, you will need to integrate two libraries into your project. the ```JTCLab``` library and the ```jSerialComm``` library. You will integrate these libraries in your project with their respective JAR files. A JAR file is a file that nicely packages up all the code in a Java project for other people to run and use it.
 
-- Download the ```JTCLab```  library <a href="https://github.com/CrayonProof/JTCLab/releases/download/1.0/JTCLab.jar" download>JAR file</a>.
+- Download the ```JTCLab```  library <a href="https://github.com/APMonitor/JTCLab/releases/download/1.0/JTCLab.jar" download>JAR file</a>.
 - Download the ```jSerialComm```  library <a href="https://fazecast.github.io/jSerialComm/binaries/jSerialComm-2.6.2.jar" download>JAR file</a>.
 >JTCLab is the library that allows you to interface with the Temperature Control lab Arduino. jSerialComm is a library that allows Java to send and receive commands over your USB port.
 
