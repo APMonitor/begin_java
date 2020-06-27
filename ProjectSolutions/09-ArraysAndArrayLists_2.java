@@ -28,6 +28,8 @@ public class Main {
 		System.out.println(temps1);
 		System.out.println(temps2);
 
+		myLab.close();
+
 
 	}
 
