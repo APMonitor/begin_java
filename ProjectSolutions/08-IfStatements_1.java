@@ -14,7 +14,7 @@ public class Main {
 		float num1;
 		float num2;
 		
-		System.out.println("What opperation would you like to do? Type one of the following (+, -, *, /)");
+		System.out.println("What operation would you like to do? Type one of the following (+, -, *, /)");
 		operationType = string_scanner.nextLine();
 
 		System.out.println("What is your first number?");
