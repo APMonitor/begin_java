@@ -46,7 +46,7 @@ System.out.println("Hello World");
 ```
 
 ### Curly Brackets
-Curly brackets give Java code it's structure. They are used to show the beginning of classes, methods, loops, if statements, and other *control structures*. Notice how the oppening brackets ```{``` and the closing brackets ```}``` indicate the beginning and end of control structures in the code below:
+Curly brackets give Java code it's structure. They are used to show the beginning of classes, methods, loops, if statements, and other *control structures*. Notice how the opening brackets ```{``` and the closing brackets ```}``` indicate the beginning and end of control structures in the code below:
 
 ```
 public class Main {
