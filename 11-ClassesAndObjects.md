@@ -6,11 +6,11 @@ A class is a blueprint of code that can be copied over and over in your program.
 
 <img src="https://i.imgur.com/oSJUQDY.png" alt="Class and Objects" width="600" />
 
-A programmer usually writes a class to do something that is a little bit different in different circumstances. Lets look at an example of how a programmer could use classes and objects to write a program that keeps track of sales at a lemonade stand.
+A programmer usually writes a class to do something that is a little bit different in different circumstances. Let's look at an example of how a programmer could use classes and objects to write a program that keeps track of sales at a lemonade stand.
 
 <img src="https://i.imgur.com/oxmVkTv.png" alt="Class and Objects" width="600" />
 
-In this example, the programmer has written a class called 'Drink'. This class has the blueprint to store information like Flavor, size, ice, and price. In the program, the programmer has created two objects, lemonade1 and lemonade2, that follow the pattern of the class. The two objects follow the same pattern but they are different in the specific information they contain. This makes an easy way to log a new purchase every time the lemonade stand has a customer. The user just has to enter in the flavor, size, weather the drink had ice, and the price. Then the program make a Drink object and store it in a list.
+In this example, the programmer has written a class called 'Drink'. This class has the blueprint to store information like Flavor, size, ice, and price. In the program, the programmer has created two objects, lemonade1 and lemonade2, that follow the pattern of the class. The two objects follow the same pattern but they are different in the specific information they contain. This makes an easy way to log a new purchase every time the lemonade stand has a customer. The user just has to enter in the flavor, size, weather the drink had ice, and the price. Then the program makes a Drink object and store it in a list.
 
 Later on, if the user wants to see how much money they made, they just have to add up the price variable from all the Drink objects in the list. If they want to see which flavor was most popular, they can count up the number of each flavor from the list of Drink objects. This class and object system makes it really easy to organize all this information.
 
@@ -27,7 +27,7 @@ public class Drink {
 	
 }
 ```
-Now, we need to add variables to our class to represent flavor, size, weather the drink had ice, and price. These are called isntance variables because they will have different values for each object created from this class. The 'public' before each variable means that when an object is created from this class, other classes will be able to see those variables for each object. Alternatively, if you used 'private' then only other code inside the same object could see the variables of that object.
+Now, we need to add variables to our class to represent flavor, size, weather the drink had ice, and price. These are called instance variables because they will have different values for each object created from this class. The 'public' before each variable means that when an object is created from this class, other classes will be able to see those variables for each object. Alternatively, if you used 'private' then only other code inside the same object could see the variables of that object.
 ```
 package defaultpackage;
 
@@ -74,7 +74,7 @@ public class Drink {
 	}
 }
 ```
-Each time an object is created, it will put in it's values for each of these variables as parameters. Whenever a new object is created, it's constructor method is run. The last thing we have to do is set the values of the instance variables. Since the instance variables and the parameters of the constructor have the same names, we can use ```this.``` to tell the instance variables from the parameters.
+Each time an object is created, it will put in its values for each of these variables as parameters. Whenever a new object is created, its constructor method is run. The last thing we have to do is set the values of the instance variables. Since the instance variables and the parameters of the constructor have the same names, we can use ```this.``` to tell the instance variables from the parameters.
 
 
 ```
