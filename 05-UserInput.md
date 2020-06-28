@@ -37,7 +37,7 @@ Robert
 Hello, Robert. It's good to meet you!
 ```
 ## Scanner and Datatypes
-When you use the ```nextLine()``` method to retreive input, the input is retreived as a string. In order to get other kinds of input, you must use the method for retreiving that datatype. These methods all follow the same name pattern, they are all named 'next' followed by the datatype they take. Here is a list from [w3schools](https://www.w3schools.com/) of these methods.
+When you use the ```nextLine()``` method to retrieve input, the input is retrieved as a string. In order to get other kinds of input, you must use the method for retreiving that datatype. These methods all follow the same name pattern, they are all named 'next' followed by the datatype they take. Here is a list from [w3schools](https://www.w3schools.com/) of these methods.
 
 <div class="w3-responsive" style="margin:-16px 0;">
 <table class="w3-table-all notranslate">
