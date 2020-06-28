@@ -55,7 +55,7 @@ Relational operators show the relationship between different data, like whether 
 | >=| Greater Than or Equal to |
 | <=| Less Than or Equal to|
 
-All of these opperations result in either true or false, boolean values. Let's look at the use of a few of these operators in real Java code, along with the printed output.
+All of these operations result in either true or false, boolean values. Let's look at the use of a few of these operators in real Java code, along with the printed output.
 
 ```
 boolean isEqual = (7 == 18);
@@ -158,7 +158,7 @@ false
 ```
 
 ## Combining Operators
-You can combine any of the operators we have talked about in this lesson to create complex logical statements. For instance, let's say that you want to write a program that will test weather your total expenses are within your monthly budget. The program below adds up three variables representing different parts of your budget, then it tests whether the total is under your maximum budget.
+You can combine any of the operators we have talked about in this lesson to create complex logical statements. For instance, let's say that you want to write a program that will test whether your total expenses are within your monthly budget. The program below adds up three variables representing different parts of your budget, then it tests whether the total is under your maximum budget.
 ```
 double gasolineCost = 37.50;
 double entertainmentCost = 12.00;
@@ -175,7 +175,7 @@ true
 Congratulations! You're living within your budget!
 
 ## Try it Yourself
-For this lesson's activity, your task is to extend the program you wrote in lesson 04 to test weather the temperatures from thermometer 1 and thermometer 2 on the Temperature Control Lab are equal to one another. Your program should measure both thermometers, then test if they are equal, and finally calculate the difference between the two. It's ok if the difference comes out negative. Make your program print out two lines, formated like the ones below:
+For this lesson's activity, your task is to extend the program you wrote in lesson 04 to test weather the temperatures from thermometer 1 and thermometer 2 on the Temperature Control Lab are equal to one another. Your program should measure both thermometers, then test if they are equal, and finally calculate the difference between the two. It's ok if the difference comes out negative. Make your program print out two lines, formatted like the ones below:
 ```
 Temperature 1: 24.02
 Temperature 2: 23.98
