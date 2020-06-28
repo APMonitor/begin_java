@@ -55,7 +55,7 @@ int multiply(int a, int b) {
 	return (a*b);
 }
 ```
-As you can see, we declare the parameters just like variables inside the parentheses. Each parameter is seperated from the previous by a comma. Within the method, we can use the names of these parameters just like variables. When the method is run, these variables will contain whatever values are set in the method call..
+As you can see, we declare the parameters just like variables inside the parentheses. Each parameter is separated from the previous by a comma. Within the method, we can use the names of these parameters just like variables. When the method is run, these variables will contain whatever values are set in the method call.
 
 To call a method that takes parameters, type the values in the parentheses. Here's how you would use our multiply method to multiply 5 and 12.
 ```
@@ -72,7 +72,7 @@ Will print
 ```
 
 ## Activity
-In this activity, you will write a boolean method ```isEven``` that takes one integer as a parameter and returns true if that integer is even and false if not. You will need to use the ```%```  opperator to determine whether or not the integer is even. If the remainder of a number devided by two, then it is even. You should know that boolean variables can be set to the result of a boolean opperation. For instance:
+In this activity, you will write a boolean method ```isEven``` that takes one integer as a parameter and returns true if that integer is even and false if not. You will need to use the ```%```  operator to determine whether or not the integer is even. If the remainder of a number divided by two, then it is even. You should know that boolean variables can be set to the result of a boolean operation. For instance:
 ```
 boolean isTen = ((5+8) == 10);
 ```
