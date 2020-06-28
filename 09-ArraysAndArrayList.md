@@ -12,7 +12,7 @@ Here's is how a Java array is written.
 int[] myNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 ```
 
-In order to create an array, write the datatype as you would for a regular variable. Name your array and write an equals sign. After that, write each item in the array inside the squiggle brackets, seperated by commas.
+In order to create an array, write the datatype as you would for a regular variable. Name your array and write an equals sign. After that, write each item in the array inside the squiggle brackets, separated by commas.
 
 In order to access and use a value from an array, type the name of the array, followed by the index of the item you want. Indexes in programming begin at 0. To access the first item in the array above and store it in an integer variable you would type:
 ```
@@ -21,7 +21,7 @@ int myNumber = myNumbers[0];
 
 ### Working With Arrays
 
-This excercise is not an official activity but will help you understand how arrays work. Copy the code below into a new project in your IDE. It will print the first item in the list, then it changes it to ```103``` and prints it again. See if you can make it change a different item in the list.
+This exercise is not an official activity but will help you understand how arrays work. Copy the code below into a new project in your IDE. It will print the first item in the list, then it changes it to ```103``` and prints it again. See if you can make it change a different item in the list.
 
 ```
 package defaultpackage;
@@ -43,7 +43,7 @@ public class Tester {
 
 ## Arraylist
 
-Arrays are very useful but you can't add more items to an array once you make it. Java provdes an alternative, *ArrayList*. ArrayList is like an array but it has special commands that allow you to do more like add and remove items. Java ArrayList is a Java class so in order to use it you need to import it.
+Arrays are very useful but you can't add more items to an array once you make it. Java provides an alternative, *ArrayList*. ArrayList is like an array but it has special commands that allow you to do more like add and remove items. Java ArrayList is a Java class so in order to use it you need to import it.
 ```
 import Java.util.ArrayList;
 ```
@@ -51,7 +51,7 @@ When you create an ArrayList object, you must specify what type of object the li
 ```
 ArrayList<Integer> ages = new ArrayList<Integer>();
 ```
-Notice that we use 'Integer' rather than 'int'. to specify the type. Integer is the [wrapper class](https://www.w3schools.com/java/java_wrapper_classes.asp) of the int primative datatype.
+Notice that we use 'Integer' rather than 'int'. to specify the type. Integer is the [wrapper class](https://www.w3schools.com/java/java_wrapper_classes.asp) of the int primitive datatype.
 
 You can use ArrayList to store any type of object, here's another example that stores string objects.
 ```
