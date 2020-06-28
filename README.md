@@ -27,7 +27,7 @@ There are 11 lessons and a final project to help you with the objective of desig
 7.  Operators
 8.  Loops
 9.  If Statements
-10.  Arrays and Arraylists
+10.  Arrays and ArrayLists
 11.  Methods
 12.  Classes and Objects
 13.  Final Project
