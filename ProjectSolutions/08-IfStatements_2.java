@@ -20,7 +20,7 @@ public class Main {
 		
 		while (true) {
 			if (myLab.T1() > 35 && myLab.T2() > 35) {
-				System.out.println("Both heaters have passed 35 degrees Celcius");
+				System.out.println("Both heaters have passed 35 degrees Celsius");
 				break;
 			}
 			else if (myLab.T1() > 30 && myLab.T2() > 30) {
