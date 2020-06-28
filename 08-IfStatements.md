@@ -1,9 +1,9 @@
 # Lesson 08 - If Statements
-We humans can make decisions. If someone tells you to turn off the stove if the food is done. You can go check the food and then either turn it off *if* it's done or leave it one if not. So far we have learned programming that let's us tell the computer to do the same thing every time. But what if we want the computer to do something different for different circumstances? 
+We humans can make decisions. If someone tells you to turn off the stove if the food is done. You can go check the food and then either turn it off *if* it's done or leave it one if not. So far, we have learned programming that lets us tell the computer to do the same thing every time. But what if we want the computer to do something different for different circumstances? 
 
 <img src="https://i.imgur.com/jOmXiY7.png" alt="if else" width=600 />
 
-In programming, this is called an *if statement*. If statements are straight forward they let you tell the computer *if* somthing is true, follow these instructions but if not, don't do anything.
+In programming, this is called an *if statement*. If statements are straight forward they let you tell the computer *if* something is true, follow these instructions but if not, don't do anything.
 
 In Java, an if statement looks like this:
 
@@ -13,7 +13,7 @@ if (condition) {
 }
 ```
 
-Inside the parentheses you write the condidtion for the computer to check. If the condition is true, the code inside the brackets runs, if the condition is false, the code does not run. The keywords ```else if``` tell the computer to check another condition if the first one isn't true. The code inside the ```else``` block will run if none of the other conditions were true.
+Inside the parentheses you write the condition for the computer to check. If the condition is true, the code inside the brackets runs, if the condition is false, the code does not run. The keywords ```else if``` tell the computer to check another condition if the first one isn't true. The code inside the ```else``` block will run if none of the other conditions were true.
 
 ```
 if (condition) {
@@ -41,7 +41,7 @@ else {
 
 
 ## Nested If Statements
-You can *nest* if statements, or put them inside of eachother. This lets you program decisions that are based off of a series of conditions. The example below first checks if a game is over, if so, it tells you if you won or lost.
+You can *nest* if statements, or put them inside of each other. This lets you program decisions that are based off of a series of conditions. The example below first checks if a game is over, if so, it tells you if you won or lost.
 
 ```
 if (gameOver == true) {
@@ -60,11 +60,11 @@ if (gameOver == true) {
 ## Try it Yourself!
 
 ### Activity 8.1
-For this activity you will write a simple calculator that can do addition, devision, multiplication, and addition. Your program should first ask what type of opperation the user would like to do and then as for two numbers.
+For this activity you will write a simple calculator that can do addition, division, multiplication, and addition. Your program should first ask what type of operation the user would like to do and then as for two numbers.
 
 Here is an example of the output from this program.
 ```
-What opperation would you like to do? Type one of the following (+, -, *, /)
+What operation would you like to do? Type one of the following (+, -, *, /)
 +
 What is your first number?
 3
@@ -89,11 +89,11 @@ You will need to use an if statement inside of a while loop for this project. He
 
 ```
 Arduino Leonardo connected on COM5 at 9600 baud
-Port opened succesfully
+Port opened successfully
 Please type in a power level
 100
 Heating up...
-Both heaters have passed 35 degrees Celcius
+Both heaters have passed 35 degrees Celsius
 TCLab disconnected successfully
 
 ```
