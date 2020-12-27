@@ -129,17 +129,17 @@ false
 
 ### The Or Operator
 
-```&&``` returns ```true``` if at least one of the values on both sides of it are true:
+```||``` returns ```true``` if at least one of the values on both sides of it are true:
 ```
-boolean myBool = false && true;
+boolean myBool = false || true;
 System.out.println(myBool);
 ```
 ```
 true
 ```
- ```&&```  returns ```false``` if neither of the boolean values on both sides of it are true:
+ ```||```  returns ```false``` if neither of the boolean values on both sides of it are true:
 ```
-boolean myBool = false && false;
+boolean myBool = false || false;
 System.out.println(myBool);
 ```
 ```
