@@ -1,4 +1,7 @@
 # Lesson 01 - Project Overview
+
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava01.png)](https://www.youtube.com/watch?v=e09w75Z40jY&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 Imagine that you work for an organization that rescues orphaned birds. Often you have to hatch eggs left without a nest.
 
 <img src="https://i.imgur.com/A4YW8qP.jpg" alt="BabyBirds" width="400
