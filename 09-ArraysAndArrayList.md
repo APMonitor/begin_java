@@ -1,5 +1,7 @@
 # Lesson 09 - Arrays and ArrayList
 
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava09.png)](https://www.youtube.com/watch?v=jhrhZsJoGDQ&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 Up to this point we have stored data exclusively in variables. Variables are fantastic for storing a single value but what if you want to store more than one value? What if you have a whole list of values? Java does that too.
 
 ## Java Arrays
