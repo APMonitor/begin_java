@@ -1,5 +1,6 @@
 # Lesson 05 - User Input
 
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava05.png)](https://www.youtube.com/watch?v=VSYSg7RYseg&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
 
 The earliest computers used punch cards to tell the computer what kind of program to run. Nowadays, we don't use punch-card computer input anymore. In this lesson we will learn how to take input from a user using the keyboard.
 
