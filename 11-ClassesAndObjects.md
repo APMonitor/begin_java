@@ -1,4 +1,7 @@
 # Lesson 11 - Classes and Objects
+    
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava11.png)](https://www.youtube.com/watch?v=c1cTslnTTr8&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 One of the biggest advancements in programming in the last few decades is called *object oriented programming*. Many of the most used programming languages today, including Java, are *object oriented*. This means that programmers can organize their code in a specific way that makes it easy modify and use in lots of different ways. To understand why object oriented programming is so useful, I will first explain what classes and objects are, then we will look at a few examples of how they can be used.
 
 ## What are Classes and Objects?
