@@ -16,7 +16,7 @@ For this course, imagine that you are tasked with maintaining three eggs at the 
 
 ## Programming Skills
 
-There are 11 lessons and a final project to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The used in this course is [Eclipse.](https://www.eclipse.org/downloads/)
+There are 11 lessons and a final project to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The IDE used in this course is [Eclipse.](https://www.eclipse.org/downloads/)
 
 <img src="https://apmonitor.com/che263/uploads/Main/begin_java.png" alt="TCLab with Java" width="600"/>
 
