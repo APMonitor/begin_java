@@ -2,8 +2,7 @@
 # Begin Java with the TCLab
 Welcome to this introductory course on Java! The course is intended to help you start programming in Java from little or no prior experience. One of the best ways to start or review a programming language is to work on a simple project. These exercises are designed to teach basic Java programming skills to help you design a temperature controller.
 
-<img src="https://apmonitor.com/pdc/uploads/Main/tclab_front.jpg" alt="TCLab" width="337
-"/>
+<img src="https://apmonitor.com/pdc/uploads/Main/tclab_front.jpg" alt="TCLab" width="400"/>
 
 Temperature control is found in many applications such as home or office HVAC, manufacturing processes, transportation, and life sciences. Even our bodies regulate temperature to a specific set point. This project is to regulate the temperature of the TCLab. Each TCLab has thermochromic (changes color with temperature) paint that turns from black to purple when the temperature reaches the target temperature of 37°C (99°F).
 
@@ -17,20 +16,22 @@ For this course, imagine that you are tasked with maintaining three eggs at the 
 
 ## Programming Skills
 
-There are 11 lessons and a final project to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The one I use in this course is [Eclipse.](https://www.eclipse.org/downloads/)
+There are 11 lessons and a final project to help you with the objective of designing the temperature control for the incubator. You will need to have an IDE in which to write and run your code. The used in this course is [Eclipse.](https://www.eclipse.org/downloads/)
+
+<img src="https://apmonitor.com/che263/uploads/Main/begin_java.png" alt="TCLab with Java" width="400"/>
 
 1.  Overview
-3.  Debugging
-4.  Variables
-5.  Printing
-6.  User Input
-7.  Operators
-8.  Loops
-9.  If Statements
-10.  Arrays and ArrayLists
-11.  Methods
-12.  Classes and Objects
-13.  Final Project
+2.  Debugging
+3.  Variables
+4.  Printing
+5.  User Input
+6.  Operators
+7.  Loops
+8.  If Statements
+9.  Arrays and ArrayLists
+10.  Methods
+11.  Classes and Objects
+12.  Final Project
 
 ## Supplies
 
