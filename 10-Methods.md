@@ -1,5 +1,8 @@
 
 # Lesson 10 - Methods
+    
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava10.png)](https://www.youtube.com/watch?v=uj_Pruyc2X8&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 A method is a reusable bit of code that you can activate or *call* at any point in your code.
 
 <img src="https://i.imgur.com/GuLxJkv.png" alt="Method" width="600" />
