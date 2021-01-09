@@ -1,5 +1,7 @@
 # Final Project
 
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJavaXX.png)](https://www.youtube.com/watch?v=-RGLHk_IhRg&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 This final project is an opportunity for you to use the skills you've learned in this course to build a temperature control program that works like an egg incubator. Feel free to look back through the previous lessons as you remember and apply each of these skills.
 
 It's wise to begin by planning out the general functionality of your program. You can write comments in your project that explain in plain words what your code should do, this is called pseudocode. Then you can go along step by step and write the code to do each part.
