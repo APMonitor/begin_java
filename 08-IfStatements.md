@@ -1,4 +1,7 @@
 # Lesson 08 - If Statements
+
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava08.png)](https://www.youtube.com/watch?v=99LD4dzspiY&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 We humans can make decisions. If someone tells you to turn off the stove if the food is done. You can go check the food and then either turn it off *if* it's done or leave it one if not. So far, we have learned programming that lets us tell the computer to do the same thing every time. But what if we want the computer to do something different for different circumstances? 
 
 <img src="https://i.imgur.com/jOmXiY7.png" alt="if else" width=600 />
