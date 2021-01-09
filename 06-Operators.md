@@ -1,7 +1,8 @@
 # Lesson 06 - Operators
 
-You can think of programming like extra powerful math. Instead of working with just numbers, you can work with many different kinds of data. Just like math, programming uses special symbols called *operators* to make changes to and to compare data. We have already used operators in a few of the lesson activities, like the ```+``` symbol to add two numbers. Today, we are going to take a look at three common kinds of operators in Java and how they are used.
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava06.png)](https://www.youtube.com/watch?v=PU1DuuYCmA4&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
 
+You can think of programming like extra powerful math. Instead of working with just numbers, you can work with many different kinds of data. Just like math, programming uses special symbols called *operators* to make changes to and to compare data. We have already used operators in a few of the lesson activities, like the ```+``` symbol to add two numbers. Today, we are going to take a look at three common kinds of operators in Java and how they are used.
 
 ## Arithmetic Operators
 Arithmetic operators are for math. They can be used to perform operations on numbers –integers, doubles, floats etc. The arithmetic operators in java are:
