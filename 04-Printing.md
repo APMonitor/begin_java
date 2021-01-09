@@ -1,4 +1,7 @@
 # Lesson 04 - Printing
+
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava04.png)](https://www.youtube.com/watch?v=QCaHGi634vw&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 In the early days of computers, users didn't interact with the computer through a screen, as we do now. Instead, the computer would output information with a physical printer with paper.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WACsOperateTeletype.jpg" alt="Teletype" width="400
