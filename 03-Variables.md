@@ -1,6 +1,8 @@
 # Lesson 03 - Variables
 
-One of the most useful resources in all of programming are variables. Just like in math, a variable is a container that represents a value that can change. Let's say you are designing a program that makes automatically makes birthday invitations for any group you give it. Rather than programming it to only make 10 or 12 or 18 invitations every time, you would want a variable that represents the number of people to invite. Then, whenever you run the program, you can set that variable to a specific value depending how many people you have that time.
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava03.png)](https://www.youtube.com/watch?v=HKrERQZIckY&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
+One of the most useful resources in all of programming is a variable. Just like in math, a variable is a container that represents a value that can change. Let's say you are designing a program that makes automatically makes birthday invitations for any group you give it. Rather than programming it to only make 10 or 12 or 18 invitations every time, you would want a variable that represents the number of people to invite. Then, whenever you run the program, you can set that variable to a specific value depending how many people you have that time.
 
 <img src="https://i.imgur.com/kQ2J08e.png" alt="Container" width="400
 "/> 
