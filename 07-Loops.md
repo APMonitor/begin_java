@@ -1,4 +1,7 @@
 # Lesson 07 - Loops
+
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava07.png)](https://www.youtube.com/watch?v=KpwfraUuDOQ&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 I recently wrote a computer program to solve Sudoku puzzles. As part of the program, I needed to the computer to check every empty box on the grid. Sudoku is played on a 9 by 9 grid. That means I would have to check 81 times. It wouldn't make sense to type my code 81 different times. Fortunately, programming languages don't expect you to. Loops let you tell the program to run code over and over as long as you want it to.
 
 ## For Loops
