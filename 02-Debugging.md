@@ -1,5 +1,7 @@
 # Lesson 02 – Debugging
 
+[![Java Course](https://apmonitor.com/che263/uploads/Begin_Java/BeginJava02.png)](https://www.youtube.com/watch?v=f3aFv3tP090&list=PLLBUgWXdTBDgp8_akDMUUV0_QRlIYwjGJ "Begin Java with the TCLab")
+
 Because computers are so exact, they are wonderful tools when you need precise measurements and control. However, this also means that they need very precise instructions. It's easy to make a little mistake in your code and throw off your whole program. 
 
 <img src="https://i.imgur.com/mo96iKf.jpg" alt="Frusterated" width="400
